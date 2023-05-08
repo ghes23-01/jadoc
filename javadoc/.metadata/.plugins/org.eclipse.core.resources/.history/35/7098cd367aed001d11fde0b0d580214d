@@ -1,0 +1,64 @@
+package javadoc;
+/**
+ * Esta clase es de Maquinaria.
+ * @author Gianluca Valdivia 1º DAM
+ *
+ */
+public class Locomotoras extends Maquinaria {
+	/**
+	 * Atributos de la clase locomotoras.
+	 */
+	private int potencia;
+	private int antigüedad;
+	private String mecanico;
+	/**
+	 * Método que devuelve la potencia de la maquinaria.
+	 * @return
+	 */
+	public int getPotencia() {
+		return potencia;
+	}
+	/**
+	 * Método que sirve para introducir una potencia de la maquinaría
+	 * @param potencia
+	 */
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+	/**
+	 * Método que devuelve la antigüedad de la maquinaria.
+	 * @return
+	 */
+	public int getAntigüedad() {
+		return antigüedad;
+	}
+	/**
+	 * Método que sirve para introducir la antigüedad de la maquinaria.
+	 * @param antigüedad
+	 */
+	public void setAntigüedad(int antigüedad) {
+		this.antigüedad = antigüedad;
+	}
+	/**
+	 * Método que devuelve el mecánico responsable de la maquinaria.
+	 * @return
+	 */
+	public String getMecanico() {
+		return mecanico;
+	}
+	/**
+	 *  Método que sirve para introducir el mecánico responsable de la maquinaria.
+	 * @param mecanico
+	 */
+	public void setMecanico(String mecanico) {
+		this.mecanico = mecanico;
+	}
+	/**
+	 * Costructor de la clase Maquinaria.
+	 */
+	public Locomotoras() {
+		this.potencia=1;
+		this.antigüedad=0;
+		this.mecanico="";
+	}
+}

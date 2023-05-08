@@ -1,0 +1,18 @@
+package javadoc;
+/**
+ * Esta clase es de jesfes de estación.
+ * @author Gianluca Valdivia
+ *
+ */
+
+public class JefesEstacion extends Persona {
+private int FechaNombramiento;
+
+public int getFechaNombramiento() {
+	return FechaNombramiento;
+}
+
+public void setFechaNombramiento(int fechaNombramiento) {
+	this.FechaNombramiento = fechaNombramiento;
+}
+}

@@ -1,0 +1,32 @@
+package Empresa;
+
+public class Locomotoras extends Maquinaria {
+	private int potencia;
+	private int antigüedad;
+	private String mecanico;
+	
+	public int getPotencia() {
+		return potencia;
+	}
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+	public int getAntigüedad() {
+		return antigüedad;
+	}
+	public void setAntigüedad(int antigüedad) {
+		this.antigüedad = antigüedad;
+	}
+	public String getMecanico() {
+		return mecanico;
+	}
+	public void setMecanico(String mecanico) {
+		this.mecanico = mecanico;
+	}
+	public Locomotoras() {
+		this.potencia=1;
+		this.antigüedad=0;
+		this.mecanico="";
+	}
+}
+//Gianluca Valdivia 1º DAM

@@ -1,0 +1,44 @@
+package javadoc;
+/**
+ * Es la clase Vagones.
+ * @author Gianluca Valdivia 1º DAM
+ *
+ */
+
+class Vagones extends Maquinaria {
+	/**
+	 * Atributos de la clase Vagones.
+	 * 
+	 * cargam  -Carga máxima que está medido en Kg.
+	 * cargaac -Carga actual que está medido en Kg.
+	 */
+private double cargam; // 
+private double cargaac; // 
+private String tipoMercancia;
+
+public double getCargam() {
+	return cargam;
+}
+public void setCargam(double cargam) {
+	this.cargam = cargam;
+}
+public double getCargaac() {
+	return cargaac;
+}
+public void setCargaac(double cargaac) {
+	this.cargaac = cargaac;
+}
+public String getTipoMercancia() {
+	return tipoMercancia;
+}
+public void setTipoMercancia(String tipoMercancia) {
+	this.tipoMercancia = tipoMercancia;
+}
+
+public Vagones() {
+	this.cargam=1;
+	this.cargaac=1;
+	this.tipoMercancia="";
+}
+}
+//Gianluca Valdivia 1º DAM

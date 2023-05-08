@@ -1,0 +1,64 @@
+package javadoc;
+/**
+ * 
+ * @author Gianluca Valdivia 1º DAM
+ *
+ */
+public class Locomotoras extends Maquinaria {
+	/**
+	 * 
+	 */
+	private int potencia;
+	private int antigüedad;
+	private String mecanico;
+	/**
+	 * 
+	 * @return
+	 */
+	public int getPotencia() {
+		return potencia;
+	}
+	/**
+	 * 
+	 * @param potencia
+	 */
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+	/**
+	 * 
+	 * @return
+	 */
+	public int getAntigüedad() {
+		return antigüedad;
+	}
+	/**
+	 * 
+	 * @param antigüedad
+	 */
+	public void setAntigüedad(int antigüedad) {
+		this.antigüedad = antigüedad;
+	}
+	/**
+	 * 
+	 * @return
+	 */
+	public String getMecanico() {
+		return mecanico;
+	}
+	/**
+	 * 
+	 * @param mecanico
+	 */
+	public void setMecanico(String mecanico) {
+		this.mecanico = mecanico;
+	}
+	/**
+	 * 
+	 */
+	public Locomotoras() {
+		this.potencia=1;
+		this.antigüedad=0;
+		this.mecanico="";
+	}
+}

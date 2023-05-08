@@ -1,0 +1,15 @@
+package Empresa;
+
+public class Mecanicos extends Persona {
+private int telefono;
+enum especialidad {frenos, hidraulica, eletricidad, motor};
+
+public int getTelefono() {
+	return telefono;
+}
+public void setTelefono(int telefono) {
+	this.telefono = telefono;
+}
+
+}
+//Gianluca Valdivia 1º DAM

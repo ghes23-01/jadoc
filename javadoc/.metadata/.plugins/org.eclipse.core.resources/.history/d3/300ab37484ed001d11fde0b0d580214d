@@ -1,0 +1,25 @@
+package javadoc;
+/**
+ * 
+ * @author Gianluca Valdivia 1º DAM
+ *
+ */
+
+public class Tren extends Maquinaria {
+private String maquinista;
+	public String getMaquinista() {
+	return maquinista;
+}
+public void setMaquinista(String maquinista) {
+	this.maquinista = maquinista;
+}
+	
+Locomotoras a = new Locomotoras();
+
+Vagones b = new Vagones();
+Vagones c = new Vagones();
+Vagones d = new Vagones();
+Vagones f = new Vagones();
+Vagones g = new Vagones();
+}
+//Gianluca Valdivia 1º DAM

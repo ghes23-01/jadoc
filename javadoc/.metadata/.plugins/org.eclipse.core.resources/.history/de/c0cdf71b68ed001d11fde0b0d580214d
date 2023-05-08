@@ -1,0 +1,14 @@
+package Empresa;
+
+public class JefesEstacion extends Persona {
+private int FechaNombramiento;
+
+public int getFechaNombramiento() {
+	return FechaNombramiento;
+}
+
+public void setFechaNombramiento(int fechaNombramiento) {
+	this.FechaNombramiento = fechaNombramiento;
+}
+}
+//Gianluca Valdivia 1º DAM
